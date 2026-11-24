@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="taskForm">
+         <label for="taskName">Task Nane:</label>
+         <input type="text" id="taskName" placeholder="Enter Task Name" required>
+
+
+         <label for="catergory">Category:</label>
+         <input type="text" id="category" placeholder="Enter category" required>
+
+         <label for="deadline">Deadline:</label>
+         <input type="date" id="deadline" required>\
+
+         <label for="status">Initial Status:</label>
+         <select id="status">
+            <option value="pending">Pending</option>
+            <option value="In progress">In progress</option>
+            <option value="Complete">Complete</option>
+         </select>
+
+         <button type="submit">Add Task</button>
+    </form>
+       
+</body>
+</html>
