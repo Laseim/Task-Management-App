@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+}
+
+#taskForm{
+    width: 400px;
+    margin: 40px auto;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;
+}
